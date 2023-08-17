@@ -1,0 +1,20 @@
+PS C:\Users\HP\Desktop\New folder (3)\New folder> git init 
+Initialized empty Git repository in C:/Users/HP/Desktop/New folder (3)/New folder/.git/
+PS C:\Users\HP\Desktop\New folder (3)\New folder> git add .
+PS C:\Users\HP\Desktop\New folder (3)\New folder> git commit -m "Githup Demo"
+[master (root-commit) 375e77f] Githup Demo
+ 1 file changed, 11 insertions(+)
+ create mode 100644 index.html
+PS C:\Users\HP\Desktop\New folder (3)\New folder> git remote add origin https://github.com/SURESHSPM/sss.git
+>> git branch -M main
+>> git push -u origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 394 bytes | 394.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0        
+To https://github.com/SURESHSPM/sss.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+PS C:\Users\HP\Desktop\New folder (3)\New folder> 
